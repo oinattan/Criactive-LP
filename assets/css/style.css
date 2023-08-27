@@ -1,0 +1,12 @@
+.icone-aumentado img {
+    width: 30px; /* Defina o tamanho desejado em pixels */
+    height: 30px; /* Defina a altura desejada em pixels */
+}
+
+.logo {
+    margin-top: auto; /* Adicione a quantidade de espaço superior desejada em pixels */
+    width: 100px; /* Largura desejada */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+}
+
+
