@@ -44,13 +44,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  $mail->Body = $emailContent;
 
     
-
     // Tente enviar o e-mail
     try {
         $mail->send();
-        echo 'E-mail enviado com sucesso!';
+        
+        // Redirecione com parâmetro de sucesso
+        header("Location: index.php?success=1");
+        exit();
     } catch (Exception $e) {
         echo 'Erro ao enviar o e-mail: ' . $mail->ErrorInfo;
     }
 }
+
+
 ?>

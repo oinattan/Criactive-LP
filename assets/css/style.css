@@ -9,4 +9,20 @@
     height: auto; /* A altura será ajustada automaticamente para manter a proporção */
 }
 
+.success-message {
+    background-color: #6c5ce7; /* Roxo mais escuro */
+    border: 1px solid #4a3ec1; /* Tom mais escuro de roxo */
+    color: #ffffff; /* Texto branco para contrastar */
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    max-width: 300px;
+    text-align: center;
+    z-index: 999;
+}
+
+
+
 
